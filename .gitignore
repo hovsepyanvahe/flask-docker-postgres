@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+*.db
+
+# Compiled Python files
+*.pyc
+
+# Local development settings
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Flask migration files
+/migrations/
