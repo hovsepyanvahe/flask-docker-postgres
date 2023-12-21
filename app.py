@@ -3,6 +3,7 @@ from models import db, Note
 from schemas import NoteSchema
 from datetime import datetime
 
+
 app = Flask(__name__)
 app.config[
     'SQLALCHEMY_DATABASE_URI'] = 'postgresql://flask_database_user:flask_database_password@db:5432/flask_database'
